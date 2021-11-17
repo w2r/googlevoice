@@ -20,8 +20,7 @@ nohup python3 -u voice.py >> result.out 2>&1 &
 # 终止程序
 ps -ef | grep python3
 
-# 找到voice.py的进程id
-# 杀死程序
+# 找到voice.py的进程id并杀死程序
 kill 进程id
 ~~~
 
@@ -33,6 +32,10 @@ kill 进程id
 ![](https://qyucloud.ml/t/D4SGSS)
 ##### tg_token获得方式
 tg上找到botfather，新建机器人，然后找到api token
+格式如下：
+~~~
+1406225942:AAE2yM****************
+~~~
 
 ##### user_id获得方式
 新建一个频道，把机器人拉到新建的频道里并给与权限，然后向频道随便发一个信息，把信息转发给Tg机器人@getidsbot 就可以获得频道id。（频道id为负值，务必确认保留负号）
