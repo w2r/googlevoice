@@ -184,7 +184,7 @@ def voice(gv, n):
 def get_threading(q):
     while True:
         try:
-            gv_name = str(q.get_nowait())  # 不阻塞的读取队列数据,获取图片网
+            gv_name = str(q.get_nowait())  
             voice(gv_name, 0)
         except Exception as e:
             break
