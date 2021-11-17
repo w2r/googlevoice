@@ -13,16 +13,16 @@ python3，依赖requests（代码请部署在美国ip的vps）
 # 修改参数cookie，tg_token，user_id，然后上传voice.py到服务器
 # 安装依赖requests
 pip3 install requests
+
 # 后台运行
 nohup python3 -u voice.py >> result.out 2>&1 &
 
 # 终止程序
 ps -ef | grep python3
+
 # 找到voice.py的进程id
 # 杀死程序
 kill 进程id
-
-
 ~~~
 
 #### 其他说明
