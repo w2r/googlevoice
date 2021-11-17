@@ -32,13 +32,11 @@ kill 进程id
  
 ![](https://qyucloud.ml/t/D4SGSS)
 ##### tg_token获得方式
-~~~
-    tg上找到botfather，新建机器人，然后找到api token
-~~~
+tg上找到botfather，新建机器人，然后找到api token
+
 ##### user_id获得方式
-~~~
-    新建一个频道，把机器人拉到新建的频道里并给与权限，然后向频道随便发一个信息，把信息转发给Tg机器人@getidsbot 就可以获得频道id。（频道id为负值，务必确认保留负号）
-~~~
+新建一个频道，把机器人拉到新建的频道里并给与权限，然后向频道随便发一个信息，把信息转发给Tg机器人@getidsbot 就可以获得频道id。（频道id为负值，务必确认保留负号）
+
 
 
     
